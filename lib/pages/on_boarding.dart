@@ -178,12 +178,12 @@ class _onBoardingState extends State<onBoarding> {
   containerCambiante({required int index}){
     return Container(
       height: 4,
-      width: pages == index ? 20 : 12,
-      margin: const EdgeInsets.only(right: 8),
+      width: pages == index ? 18 : 10,
+      margin: const EdgeInsets.only(right: 9),
       decoration: BoxDecoration(
         color:
             pages == index ? const Color.fromRGBO(252, 21, 96, 1) : const Color.fromARGB(255, 120, 117, 117),
-        borderRadius: BorderRadius.circular(3),
+        borderRadius: BorderRadius.circular(4),
       ),
     );
   }
